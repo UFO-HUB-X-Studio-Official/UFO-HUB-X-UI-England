@@ -547,13 +547,13 @@ local function makeTabButton(parent, label, iconId)
     return b, setActive
 end
 
-local btnPlayer,  setPlayerActive   = makeTabButton(LeftScroll, "ผู้เล่น",  ICON_PLAYER)
-local btnHome,    setHomeActive     = makeTabButton(LeftScroll, "หน้าหลัก",    ICON_HOME)
-local btnQuest,   setQuestActive    = makeTabButton(LeftScroll, "ภารกิจ",   ICON_QUEST)
-local btnShop,    setShopActive     = makeTabButton(LeftScroll, "ร้านค้า",    ICON_SHOP)
-local btnUpdate,  setUpdateActive   = makeTabButton(LeftScroll, "อัปเดต",  ICON_UPDATE)
-local btnServer,  setServerActive   = makeTabButton(LeftScroll, "เซิร์ฟเวอร์",  ICON_SERVER)
-local btnSettings,setSettingsActive = makeTabButton(LeftScroll, "การตั้งค่า",ICON_SETTINGS)
+local btnPlayer,  setPlayerActive   = makeTabButton(LeftScroll, "Player",  ICON_PLAYER)
+local btnHome,    setHomeActive     = makeTabButton(LeftScroll, "Home",    ICON_HOME)
+local btnQuest,   setQuestActive    = makeTabButton(LeftScroll, "Quest",   ICON_QUEST)
+local btnShop,    setShopActive     = makeTabButton(LeftScroll, "Shop",    ICON_SHOP)
+local btnUpdate,  setUpdateActive   = makeTabButton(LeftScroll, "Update",  ICON_UPDATE)
+local btnServer,  setServerActive   = makeTabButton(LeftScroll, "Server",  ICON_SERVER)
+local btnSettings,setSettingsActive = makeTabButton(LeftScroll, "Settings",ICON_SETTINGS)
 
 -- ========== RIGHT ==========
 local RightShell=Instance.new("Frame",Body)
